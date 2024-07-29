@@ -3,30 +3,18 @@ export function ThirdBlock() {
     <div className="thirdBlock">
       <div className="container width">
         <div className="thirdBlock__wrapper">
-          <div className="thirdBlock__tile">
-            <div className="thirdBlock__tile-text">Септики</div>
-            <a href="#" className="thirdBlock__link">
-              <img src="./icons/textSvg.svg" alt="link" />
-            </a>
-          </div>
-          <div className="thirdBlock__tile">
-            <div className="thirdBlock__tile-text">Скважины</div>
-            <a href="#" className="thirdBlock__link">
-              <img src="./icons/textSvg.svg" alt="link" />
-            </a>
-          </div>
-          <div className="thirdBlock__tile">
-            <div className="thirdBlock__tile-text">Сваи</div>
-            <a href="#" className="thirdBlock__link">
-              <img src="./icons/textSvg.svg" alt="link" />
-            </a>
-          </div>
-          <div className="thirdBlock__tile">
-            <div className="thirdBlock__tile-text">Кессоны</div>
-            <a href="#" className="thirdBlock__link">
-              <img src="./icons/textSvg.svg" alt="link" />
-            </a>
-          </div>
+          <a href="#" className="thirdBlock__tile septik">
+            <div className="thirdBlock__tile-text">Заказать Септик</div>
+          </a>
+          <a href="#" className="thirdBlock__tile well">
+            <div className="thirdBlock__tile-text">Заказать Скважину</div>
+          </a>
+          <a href="#" className="thirdBlock__tile svai">
+            <div className="thirdBlock__tile-text">Заказать Сваи</div>
+          </a>
+          <a href="#" className="thirdBlock__tile caisson">
+            <div className="thirdBlock__tile-text">Заказать Кессон</div>
+          </a>
         </div>
       </div>
     </div>

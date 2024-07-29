@@ -121,7 +121,7 @@ body {
 }
 
 .firstBlock__buttonMediaMax940px {
-  margin-top: 230px;
+  margin-top: 110px;
   width: 300px;
   height: 70px;
   cursor: pointer;
@@ -397,19 +397,20 @@ body {
   border-bottom: 1px solid #000;
   display: flex;
   flex-direction: column;
-  padding-left: 5px;
+  justify-content: end;
   text-decoration: none;
 }
 
 .thirdBlock__tile-text {
   width: 100%;
   height: 35px;
-  color: #31373e;
-  background: rgba(256, 256, 256, 1);
+  color: #ffffff;
   font-size: 12px;
   font-weight: 400;
   padding-top: 16px;
   cursor: pointer;
+  text-align: center;
+  background-color: #084097;
 }
 
 .fullScreenLine {
@@ -742,6 +743,7 @@ body {
 }
 
 .footer__img {
+  background: url("../img/logo.webp");
   width: 50px;
   height: 50px;
   opacity: 0.25;
@@ -1023,6 +1025,18 @@ body {
   background-color: rgb(7, 64, 151);
 }
 
+.secondSpan {
+  font-size: 60px;
+}
+
+.thirdBlock__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 70px 0;
+  justify-content: center;
+}
+
 @media (min-width: 360px) {
   .width {
     width: 350px;
@@ -1031,7 +1045,6 @@ body {
   .thirdBlock__tile {
     width: 160px;
     height: 290px;
-    padding-left: 5px;
   }
   .thirdBlock__tile-text {
     font-size: 13px;
@@ -1131,6 +1144,11 @@ body {
 
   .firstBlock__header {
     font-size: 100px;
+    line-height: 0.9;
+  }
+
+  .firstBlock__title {
+    margin-top: 20px;
   }
 
   .firstBlock__buttonMediaMax940px {
@@ -1138,7 +1156,7 @@ body {
   }
 
   .secondBlock {
-    height: 2450px;
+    height: 1600px;
   }
 
   .secondBlock__item {
@@ -1191,8 +1209,7 @@ body {
   .thirdBlock__tile-text {
     width: 100%;
     height: 48px;
-    color: #31373e;
-    background: rgba(256, 256, 256, 1);
+    color: #ffffff;
     font-size: 13px;
     font-weight: 400;
     padding-top: 14px;
@@ -1229,7 +1246,6 @@ body {
     border: 1px solid #000;
     display: flex;
     flex-direction: column;
-    padding: 10px;
   }
 
   .thirdBlock__inner {
@@ -1362,6 +1378,10 @@ body {
   .thirdBlock__tile-text {
     font-size: 16px;
   }
+
+  .secondSpan {
+    font-size: 90px;
+  }
 }
 
 @media (min-width: 640px) {
@@ -1436,14 +1456,15 @@ body {
   }
   .secondSpan {
     text-align: end;
-    width: 225%;
+    width: 100%;
     display: block;
     position: absolute;
     top: 200px;
+    font-size: 120px;
   }
 
   .firstBlock__title {
-    margin-top: 90px;
+    margin-top: 100px;
     text-align: start;
     width: 321px;
     font-size: 22px;
@@ -1454,7 +1475,7 @@ body {
   }
 
   .secondBlock {
-    height: 1700px;
+    height: 1260px;
   }
 
   .secondBlock__list {
@@ -1560,8 +1581,12 @@ body {
     width: 360px;
   }
 
+  .firstBlock__title {
+    margin-top: 110px;
+  }
+
   .smallLine {
-    margin-top: 105px;
+    margin-top: 170px;
     display: block;
     width: 310px;
     height: 2px;
@@ -1598,7 +1623,7 @@ body {
 
   .secondBlock {
     position: relative;
-    height: 600px;
+    height: 960px;
   }
 
   .secondBlock__list {
@@ -1611,7 +1636,7 @@ body {
 
   .secondBlock__secondList {
     position: absolute;
-    top: 30px;
+    top: 75px;
     right: 20px;
   }
 
@@ -1943,9 +1968,9 @@ body {
   }
 
   .smallLine {
-    width: 505px;
+    width: 470px;
     position: absolute;
-    left: 309px;
+    left: 350px;
   }
 
   .secondBlock__secondList {
@@ -2333,4 +2358,17 @@ body {
 .feedBackModal__text {
   padding-top: 20px;
   font-family: "FuturaPTWebLight";
+}
+
+.svai {
+  background: url("../img/Svai.png") center center/cover no-repeat;
+}
+.well {
+  background: url("../img/Well.png") center center/cover no-repeat;
+}
+.septik {
+  background: url("../img/SepticTank.png") center center/cover no-repeat;
+}
+.caisson {
+  background: url("../img/Caisson.png") center center/cover no-repeat;
 }

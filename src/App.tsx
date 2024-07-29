@@ -9,6 +9,20 @@ function App() {
       <nav className={`nav`}>
         <div className="container">
           <div className="nav__wrapper">
+            <div className="nav__links">
+              <a href="#" className="menu__link">
+                Септики
+              </a>
+              <a href="#" className="menu__link">
+                Скважины
+              </a>
+              <a href="#" className="menu__link">
+                Сваи
+              </a>
+              <a href="#" className="menu__link">
+                Кессоны
+              </a>
+            </div>
             <div className="nav__icons">
               <a href="https://teleg.run/Like_House_org" className="nav__icon">
                 <img src="./icons/TelegramIcon.svg" alt="" />
@@ -51,7 +65,7 @@ function App() {
             </div>
             <div className="line smallLine"></div>
             <h1 className="firstBlock__title">
-              Бьем сваи <br /> копаем септики
+              Монтируем инженерные коммуникации и фундаменты <br /> с ориентированием на честное отношение к клиентам
             </h1>
           </div>
           <div className="firstBlock__buttons">
@@ -64,7 +78,7 @@ function App() {
               <button>Бесплатная консультация</button>
             </div>
             <div className="firstBlock__buttonMap">
-              <a href="#map">
+              <a href="https://likehouse.org/" target="_blank">
                 <button>Хочу посмотреть дом</button>
               </a>
             </div>
@@ -74,22 +88,18 @@ function App() {
           <img src="./icons/partner.svg?ver=1" alt="partner" className="animation__spin" />
         </div>
       </div>
-      <SecondBlock />
+
       <ThirdBlock />
+      <SecondBlock />
+
       <footer className="footer">
         <div className="container">
           <div className="footer__wrapper">
-            <img className="footer__img" src="../icons/logo.webp" alt="logo" />
+            <div className="footer__img" />
             <div className="footer__items">
               <div className="footer__item">
                 <div className="footer__item-header">АДРЕС</div>
                 <div className="footer__item-title">
-                  Офис: г. Подольск <br />
-                  ул. Советская 33/44 <br />
-                  <a className="footer__item-linkWithdecoration" href="https://yandex.ru/maps/-/CDaJyP8G">
-                    Показать на карте
-                  </a>{" "}
-                  <br /> <br />
                   Офис: г. Подольск <br />
                   ул. Советская 33/44 <br />
                   <a className="footer__item-linkWithdecoration" href="https://yandex.ru/maps/-/CDaJyP8G">
